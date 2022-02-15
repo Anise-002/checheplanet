@@ -1,0 +1,78 @@
+@charset "utf-8";
+*{margin: 0; padding:0}
+ul,li{list-style: none;}
+a{text-decoration: none; color: #000000;}
+body{font-family: elice;}
+html{scroll-behavior:smooth;}
+
+/* -----공통 버튼 ----------- */
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    border-left: 5px solid #006D57;
+    border-right: 5px solid #006D57;
+    height: 20px;
+    /* width: 200px; */
+    text-align: center;
+    line-height: 20px;
+    padding: 0 20px;
+}
+.btn_new{
+    width: 53px;
+    height: 23px;
+    background: #F78F28;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+    padding: 1px;
+    z-index: 1;
+    animation:ani 1s infinite;
+}
+.btn_hot{
+    width: 53px;
+    height: 23px;
+    background: #F72828;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    display: block;
+    font-size: 18px;
+    padding: 1px;
+    z-index: 1;
+    animation:ani 1s infinite;
+}
+
+@keyframes ani {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.item_title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.item_title_sub{
+    font-size: 12px;
+}
+.item_price_font{
+    font-size: 20px;
+}
+.btn_more{
+    display: block;
+    background-color: #06A882;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-weight: 600;
+    width: 300px;
+    height: 55px;
+    margin: 0 auto;
+}
+.btn_more:hover{
+    background-color: #C2D460;
+}

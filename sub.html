@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채채플래닛</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon-16x16.png"/>
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/sub.js"></script>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <!---------------- 메뉴 -------------------->
+        <nav>
+            <h1>
+                <a href="./main.html"><img src="./img/logo.png" alt="logo"></a>
+            </h1>
+            <!------- 왼쪽 메뉴---- -->
+            <ul class="menu_left">
+                <!-- 1.신상품 -->
+                <li><a href="#1">신상품</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img1.jpg" alt="">
+                            <ul>
+                                <li><a href="#1">이벤트</a></li>
+                                <li><a href="#1">제철재료</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+            <!-- 2.맞춤세트 -->
+                <li><a href="#1">맞춤세트</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img2.jpg" alt="">
+                            <ul class="submenu_divice">
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">비기너세트</a></li>
+                                        <li><a href="#1">락토</a></li>
+                                        <li><a href="#1">오브</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">락토 오브</a></li>
+                                        <li><a href="#1">페스코</a></li>
+                                        <li><a href="#1">폴로</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+            <!-- 3.식품 -->
+                <li><a href="#1">식품</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img3.jpg" alt="">
+                            <ul class="submenu_divice">
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">국/반찬</a></li>
+                                        <li><a href="#1">대체육/생선</a></li>
+                                        <li><a href="#1">채소/과일</a></li>
+                                        <li><a href="#1">유제품</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">간식류</a></li>
+                                        <li><a href="#1">음료</a></li>
+                                        <li><a href="#1">향신료/드레싱</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+            <!-- 4.생활용품 -->
+                <li><a href="#1">생활용품</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img4.jpg" alt="">
+                            <ul>
+                                <li><a href="#1">구강용품</a></li>
+                                <li><a href="#1">헤어용품</a></li>
+                                <li><a href="#1">바디용품</a></li>
+                                <li><a href="#1">위생용품</a></li>
+                            </ul>
+                        </li>                        
+                </ul>
+            </li>
+            <!-- 5커뮤니티 -->
+                <li><a href="#1">커뮤니티</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img5.jpg" alt="">
+                            <ul>
+                                <li><a href="#1">자유게시판</a></li>
+                                <li><a href="#1">추천식당</a></li>
+                            </ul>
+                        </li>                   
+                </ul>
+            </li>
+            </ul>
+
+
+            <!------- 왼쪽 메뉴---- -->
+            <ul class="menu_right">
+            <li><a href="../join/join.html">JOIN</a></li>
+            <li><a href="#" class="login">LOGIN</a></li>
+            <li><a href="#1"><i class="fa fa-shopping-cart"></i><span>1</span></a></li>
+            <li><a href="#1"><i class="fa fa-search"></i></a></li>
+        </ul>
+        </nav>
+    </header>
+
+<!-- --------------------본문 -top option view ------------------------------ -->
+    <section class="sectionview">
+        <article class="sectionview_left">
+            <div id="s_img">
+                <a href="./img/sub/img1.jpg"><img src="./img/sub/img1.jpg" alt="상품상세1"></a>
+                <a href="./img/sub/img2.jfif"><img src="./img/sub/img2.jfif" alt="상품상세2"></a>
+                <a href="./img/sub/img3.jpg"><img src="./img/sub/img3.jpg" alt="상품상세3"></a>
+            </div>
+            <div>
+                <img id="b_img" src="./img/item1.png" alt="제품사진">
+            </div>
+        </article>
+        <article class="sectionview_right">
+            <div class="tit">
+                <h3>
+                    VEGGIE CHIPS<br>
+                    <span class="small">동물성 모든 것을 뺀 맛있는 비건 과자 시리즈</span >
+                </h3>
+                <p class="pirce">
+                    8,500원<br>
+                    <span class="small c-green">로그인 후, 적립 혜택이 적용됩니다.</span>
+                </p>
+            </div>
+            <div class="goods_info">
+                <dl class="list frs" >
+                    <dt class="tit">판매단위</dt>
+                    <dd class="desc">1봉</dd>
+                </dl>
+                <dl class="list" >
+                    <dt class="tit">중량/용량</dt>
+                    <dd class="desc">500g</dd>
+                </dl>
+                <dl class="list" >
+                    <dt class="tit">배송구분</dt>
+                    <dd class="desc">택배배송</dd>
+                </dl>
+                <dl class="list" >
+                    <dt class="tit">포장타입</dt>
+                    <dd class="desc">박스포장 및 완충재 포장</dd>
+                </dl>
+                <dl class="list" >
+                    <dt class="tit">알레르기 정보</dt>
+                    <dd class="desc">본 제품은 땅콩, 밀 사용한 제품과 같은 시설에서 제조되었음</dd>
+                </dl>
+                <dl class="list" >
+                    <dt class="tit">안내사항</dt>
+                    <dd class="desc">최근 코로나로 인한 수입유통이 원활하지 못한 이유로 재고 소진시 재입고 기간이 늦어질 수 있습니다. </dd>
+                </dl>
+            </div>   
+            <form>
+                <select name="goods" id="goods_option">
+                    <option value="오리지널 야채 베지칩">오리지널 야채 베지칩</option>
+                    <option value="오리지널 야채 베지칩(용량2배)">오리지널 야채 베지칩(용량2배)</option>
+                    <option value="오리지널 야채 배지스틱">오리지널 야채 배지스틱</option>
+                    <option value="체다치즈맛 베스칩">체다치즈맛 베스칩</option>
+                </select>
+                <input type="number" value="0" min="0" > 
+                <div class="total">
+                    <div class="price">
+                        <strong class="tit">총 상품 금액 : </strong>
+                        <span class="sum">
+                            <span class="num">35,000</span>
+                            <span class="won">원</span>
+                        </span>
+                    </div>
+                </div>        
+            </form>
+            <div class="buy_buttons">
+                <a href="#" class="btn btn_like"><i class="fa fa-heart"></i></a>
+                <a href="#" class="btn btn_cart"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#" class="btn btn_buy">구매하기</a>
+            </div>
+        </article>        
+    </section>
+<!-- --------------------본문 -product information------------------------------ -->
+    <div class="p_view_tab">
+        <ul>
+            <li><a href="#p_cont_text" >상품설명</a></li>
+            <li><a href="#p_detail">상품정보</a></li>
+            <li><a href="#p_review_wrap">상품리뷰(59)</a></li>
+            <li><a href="#connect">배송/환불 문의</a></li>
+        </ul>
+    </div>
+    <section class="p_info">
+        <div class="bg_img"></div>
+        <article id="p_cont_text">
+            <p>Delicious</p>
+            <h3>VECCIE CHIPS</h3>
+            <p>베지칩은 야채집이라고도 불리우며 감자 이외의 야채를 사용하여 만들어진 칩을 말합니다. <br>
+                야채 칩은 튀기 거나 튀기 거나 탈수하거나 건조하거나 구울 수 있습니다. 
+                다양한 뿌리 채소 또는 잎 채소 를 사용할 수 있습니다. <br>
+                야채 칩은 간식 으로 먹을 수 있으며 딥 과 같은 다른 음식과 함께 먹거나 요리의 토핑으로 사용할 수 있습니다.
+                감자 칩 은 기술적으로 "야채 칩"으로 간주 되지만 가장 일반적인 형태의 칩이기 때문에 다른 종류의 야채 기반 칩은 별도의 범주로 분류됩니다.
+            </p>
+        </article>
+        <article class="p_list">
+            <h3>VECCIE CHIPS 종류</h3>
+            <ul>
+                <li class="prodect">
+                    <div>
+                        <img src="./img/n-item3.jpg" alt="오리지널 맛 베지칩">
+                    </div>
+                    <span>오리지널 맛 베지칩</span>
+                </li>
+                <li class="prodect">
+                    <div>
+                        <img src="./img/n-item2.jpg" alt="오리지널 맛 베지칩 용량 2배">
+                    </div>
+                    <span>오리지널 맛 베지칩 용량 2배</span>
+                </li>
+                <li class="prodect">
+                    <div>
+                        <img src="./img/n-item1.jpg" alt="오리지널 야채 배지스틱">
+                    </div>
+                    <span>오리지널 야채 배지스틱</span>
+                </li>
+                <li class="prodect">
+                    <div>
+                        <img src="./img/n-item4.jpg" alt="체다치즈맛 베지칩">
+                    </div>
+                    <span>체다치즈맛 베지칩</span>
+                </li>
+            </ul>
+        </article>
+        <article class="p_detail" id="p_detail">
+            <h3>상품 정보</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>상품명</th>
+                        <td>VEGGIE CHIPS</td>
+                    </tr>
+                    <tr>
+                        <th>유통기한</th>
+                        <td>제품 하단에 표기</td>
+                    </tr>
+                    <tr>
+                        <th>포장단위</th>
+                        <td>1봉 / 500g</td>
+                    </tr>
+                    <tr>
+                        <th>인증여부</th>
+                        <td>해당사항 없음</td>
+                    </tr>
+                    <tr>
+                        <th>생산자/취급자</th>
+                        <td>취급자:무역팀</td>
+                    </tr>
+                    <tr>
+                        <th>관련법상 표기사항</th>
+                        <td>관련법상 표기사항 기재</td>
+                    </tr>
+                    <tr>
+                        <th>원산지</th>
+                        <td>이탈리아산</td>
+                    </tr>
+                    <tr>
+                        <th>보관방법 및 취급방법</th>
+                        <td>상온보관</td>
+                    </tr>
+                    <tr>
+                        <th>상품유형</th>
+                        <td>수입과자</td>
+                    </tr>
+                    <tr>
+                        <th>소비자상담실</th>
+                        <td>채채플래닛 고객센터(1234-1234</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+    <section class="promise">
+        <h3>
+            <span>채채플래닛의 약속</span>
+        </h3>
+        <div class="promise_list">
+            <ul>
+                <li>
+                    <div class="icon"><i class="fa fa-building"></i></div>
+                    <p class="title">깐깐한 상품위원회</p>
+                    <p>
+                        나와 내 가족이 먹고 쓸 상품을 고르는 마음으로 매주 상품을 직접 먹어보고, 경험해보고 성분, 맛, 안정성 등 다각도의 기준을 통과한 상품만을 판매합니다.
+                    </p>
+                </li>
+                <li>
+                    <div class="icon"><i class="fas fa-box-open"></i></div>
+                    <p class="title">차별화된 채채플래닛의 상품</p>
+                    <p>
+                        전국 각지와 해외의 휼룡한 생산자가 믿고 선택하는 파트너, 단독 브랜드의 only상품을 믿고 만나보세요.
+                    </p>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa fa-cart-arrow-down"></i></div>
+                    <p class="title">신선한 배송</p>
+                    <p>
+                        산지에서 문 앞까지 상온, 냉장, 냉동 상품을 분리 포장 후 최적의 온도를 유지하는 냉장 배송 시스템으로 상품을 신선하게 전해드립니다.
+                    </p>
+                </li>
+                <li>
+                    <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                    <p class="title">고객, 생산자를 위한 최선의 가격</p>
+                    <p>
+                        매주 대형 마트와 주요 온라인 마트의 가격변동 상황을 확인해 신선식품은 품질을 타협하지 않는 선에서 최선의 가격으로, 가공식품은 언제나 합리적인 가격으로 정기 조정합니다.
+                    </p>
+                </li>
+                <li>
+                    <div class="icon"><i class="fa fa-recycle"></i></div>
+                    <p class="title">환경을 생각하는 지속 가능한 유통</p>
+                    <p>
+                        친환경 포장재부터 생산자가 상품에만 집중할 수 있는 직매입 유통구조까지,지속 가능한 유통을 고민하여 채채플래닛에 있게 하는 모든 환경(생산자,커뮤니티, 직원)이 더 나아질 수 있도록 노력합니다.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="p_review_wrap g_bg" id="p_review_wrap">
+        <section class="p_review_cont">
+            <article>
+                <h3><span>상품리뷰</span></h3>
+                <div class="p_star_score">
+                    <p>상품만족도</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="number_score">
+                        4.8
+                    </div>
+                </div>
+                <div class="p_star_score">
+                    <p>배송만족도</p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="number_score">
+                        4.5
+                    </div>
+                </div>
+            </article>
+            <article class="customer_reviews">
+                <div class="review_wrap">
+                    <a href="#1">
+                        <div class="user_info">
+                            <img src="./img/user1.jpg" alt="user1">
+                            <p class="review_cont">
+                                <span class="userid">abcde***55</span><br>
+                                너무 맛있어요~ 야채칩이라 기대 안했는데 맛있네요!
+                            </p>
+                        </div>
+                        <div class="review_star_score">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                    </a>
+                    <div class="review_more_cont"> 
+                        <img src="./img/sub/img2.jfif" alt="">
+                        <img src="./img/sub/img1.jpg" alt="">
+                        <p>
+                            너무 맛있어요~ 야채칩이라 기대 별로 안했는데 너무 맛있네요~~
+                            몸에 좋은 것들만 있고, 동물성 재료를 하나도 사용하지 않다고 하니 제가 찾던 과자에요!
+                            환경을 생각하고 맛도 좋아서 다음번에 재구매 할 것 같아요!       
+                        </p>
+                    </div>
+                </div>
+                <div class="review_wrap">
+                    <a href="#1">
+                        <div class="user_info">
+                            <img src="./img/user1.jpg" alt="user1">
+                            <p class="review_cont">
+                                <span class="userid">abcde***55</span><br>
+                                너무 맛있어요~ 야채칩이라 기대 안했는데 맛있네요!
+                            </p>
+                        </div>
+                        <div class="review_star_score">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                    </a>
+                    <div class="review_more_cont"> 
+                        <img src="./img/sub/img2.jfif" alt="">
+                        <img src="./img/sub/img1.jpg" alt="">
+                        <p>
+                            너무 맛있어요~ 야채칩이라 기대 별로 안했는데 너무 맛있네요~~
+                            몸에 좋은 것들만 있고, 동물성 재료를 하나도 사용하지 않다고 하니 제가 찾던 과자에요!
+                            환경을 생각하고 맛도 좋아서 다음번에 재구매 할 것 같아요!       
+                        </p>
+                    </div>
+                </div>
+                <div class="review_wrap">
+                    <a href="#1">
+                        <div class="user_info">
+                            <img src="./img/user1.jpg" alt="user1">
+                            <p class="review_cont">
+                                <span class="userid">abcde***55</span><br>
+                                너무 맛있어요~ 야채칩이라 기대 안했는데 맛있네요!
+                            </p>
+                        </div>
+                        <div class="review_star_score">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                    </a>
+                    <div class="review_more_cont"> 
+                        <img src="./img/sub/img2.jfif" alt="">
+                        <img src="./img/sub/img1.jpg" alt="">
+                        <p>
+                            너무 맛있어요~ 야채칩이라 기대 별로 안했는데 너무 맛있네요~~
+                            몸에 좋은 것들만 있고, 동물성 재료를 하나도 사용하지 않다고 하니 제가 찾던 과자에요!
+                            환경을 생각하고 맛도 좋아서 다음번에 재구매 할 것 같아요!       
+                        </p>
+                    </div>
+                </div>
+                <div class="review_wrap">
+                    <a href="#1">
+                        <div class="user_info">
+                            <img src="./img/user1.jpg" alt="user1">
+                            <p class="review_cont">
+                                <span class="userid">abcde***55</span><br>
+                                너무 맛있어요~ 야채칩이라 기대 안했는데 맛있네요!
+                            </p>
+                        </div>
+                        <div class="review_star_score">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                    </a>
+                    <div class="review_more_cont"> 
+                        <img src="./img/sub/img2.jfif" alt="">
+                        <img src="./img/sub/img1.jpg" alt="">
+                        <p>
+                            너무 맛있어요~ 야채칩이라 기대 별로 안했는데 너무 맛있네요~~
+                            몸에 좋은 것들만 있고, 동물성 재료를 하나도 사용하지 않다고 하니 제가 찾던 과자에요!
+                            환경을 생각하고 맛도 좋아서 다음번에 재구매 할 것 같아요!       
+                        </p>
+                    </div>
+                </div>
+                <div class="review_wrap">
+                    <a href="#1">
+                        <div class="user_info">
+                            <img src="./img/user1.jpg" alt="user1">
+                            <p class="review_cont">
+                                <span class="userid">abcde***55</span><br>
+                                너무 맛있어요~ 야채칩이라 기대 안했는데 맛있네요!
+                            </p>
+                        </div>
+                        <div class="review_star_score">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                    </a>
+                    <div class="review_more_cont"> 
+                        <img src="./img/sub/img2.jfif" alt="">
+                        <img src="./img/sub/img1.jpg" alt="">
+                        <p>
+                            너무 맛있어요~ 야채칩이라 기대 별로 안했는데 너무 맛있네요~~
+                            몸에 좋은 것들만 있고, 동물성 재료를 하나도 사용하지 않다고 하니 제가 찾던 과자에요!
+                            환경을 생각하고 맛도 좋아서 다음번에 재구매 할 것 같아요!       
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    <section class="connect" id="connect">
+        <h3><span>고객 행복센터</span></h3>
+        <p>
+            <span>궁금하신 점이나 서비스 이용에 불편한 점이 있으신가요?</span><br>
+            문제가 되는 부분을 사진으로 찍어 아래 중 편하신 방법으로 접수해 주시면 빠르게 도와드리겟습니다.            
+        </p>
+        <div class="connect_list">
+            <ul>
+                <li>
+                    <div class="title">전화 문의 1234-1234</div>
+                    <div>오전 7시 ~ 오후 7시(연중무휴)</div>
+                </li>
+                <li>
+                    <div class="title">카카오톡 문의</div>
+                    <div>오전 7시 ~ 오후 7시(연중무휴)</div>
+                    <div>카카오톡에 '채채플래닛'을 검색 후 대화창에 문의 및 불편사항을 남겨주세요.</div>
+                </li>
+                <li>
+                    <div class="title">홈페이지 문의</div>
+                    <div>24시간 접수 가능</div>
+                    <div>고객센터 운영 시간에 순차적으로 답변해 드리겠습니다.</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+      <!---------------- 푸터 ------------------------->
+      <footer>
+        <div class="footer_wrap">
+            <section class="infomation">
+                <ul>
+                    <li class="footer_left">
+                        <img src="./img/logo-white.png" alt="logo-white">
+                        <div>
+                            <h3>채채플래닛<span>PLAY WITH EARTH, HAPPY EARTH</span></h3>
+                            <p>
+                                작은 생활 습관의 변화로 지구를 아름답게 변화하길 바랍니다.<br>
+                                저희 채채 플래닛에 대해 더 많이 알고 싶다면?
+                            </p>
+                            <div ><a href="#" class="btn_more">MORE HERE</a></div>
+                        </div>
+                    </li>
+                    <li class="footer_right">
+                        <ul>
+                            <li><span>About us</span>
+                                <ul>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                </ul>
+                            </li>                            
+                        </ul>
+                        <ul>
+                            <li><span>About us</span>
+                                <ul>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>        
+                </ul>              
+            </section>
+            <section class="sns">
+                <ul>
+                    <li>
+                        <a href="#1"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fa fa-ellipsis-h"></i></a>
+                    </li>
+                </ul>
+                <p>
+                    © 2022 All Rights Reserved
+                </p>
+            </section>
+        </div>
+    </footer>
+    
+
+
+
+    <!-- 로그인 모달창 -->
+    <div id="login">
+        
+        <form>
+            <fieldset id="login-main">
+                <div id="logo"><img src="./img/logo.png" alt="로고"></div>
+                    <ul>
+                        <li>
+                            <input type="text" id="id" placeholder="아이디를 입력하세요." autofocus required>
+                        </li>
+                        <li>
+                            <input id="pw" type="password" placeholder="비밀번호를 입력하세요." required>
+                        </li> 
+                    </ul>
+                    <div id="checkbox">
+                        <p><input type="checkbox">아이디 기억하기</p>    
+                    </div>   
+            </fieldset>
+            <fieldset>
+                <input id="submit" type="submit" value="로그인" class="submit">
+            </fieldset>
+            <fieldset id="find">
+                <a href="#">회원가입</a>
+                <a href="#">아이디 찾기</a>
+                <a href="#">비밀번호 찾기</a>
+            </fieldset>
+         
+        <hr>
+        <div id="sub-login">
+            <div class="kakao">
+                <a href="#">
+                    <img src="./img/kakaologo.png" style="width: 40px;" alt="카카오 로고">
+                </a>
+            </div>
+            <div class="naver">
+                <a href="#">
+                    <img src="./img/naverlogo.jfif" style="width: 35px;" alt="네이버 로고">
+                </a>
+            </div>
+            <div class="google">
+                <a href="#">
+                    <img src="./img/google-g-logo.png" style="width: 35px;" alt="구글 로고">
+                </a>
+            </div>
+        </div>
+        </form>
+        <div class="bg"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

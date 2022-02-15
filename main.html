@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon-16x16.png"/>
+    <title>채채플래닛</title>    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mian.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    
+</head>
+<body>
+    <header>
+        <!---------------- 메뉴 -------------------->
+        <nav>
+            <h1>
+                <a href="#"><img src="./img/logo.png" alt="logo"></a>
+            </h1>
+            <!------- 왼쪽 메뉴---- -->
+            <ul class="menu_left">
+                <!-- 1.신상품 -->
+                <li><a href="#1">신상품</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img1.jpg" alt="">
+                            <ul>
+                                <li><a href="#1">이벤트</a></li>
+                                <li><a href="#1">제철재료</a></li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+            <!-- 2.맞춤세트 -->
+                <li><a href="#1">맞춤세트</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img2.jpg" alt="">
+                            <ul class="submenu_divice">
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">비기너세트</a></li>
+                                        <li><a href="#1">락토</a></li>
+                                        <li><a href="#1">오브</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">락토 오브</a></li>
+                                        <li><a href="#1">페스코</a></li>
+                                        <li><a href="#1">폴로</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+            <!-- 3.식품 -->
+                <li><a href="#1">식품</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img3.jpg" alt="">
+                            <ul class="submenu_divice">
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">국/반찬</a></li>
+                                        <li><a href="#1">대체육/생선</a></li>
+                                        <li><a href="#1">채소/과일</a></li>
+                                        <li><a href="#1">유제품</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li><a href="#1">간식류</a></li>
+                                        <li><a href="#1">음료</a></li>
+                                        <li><a href="#1">향신료/드레싱</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                </ul>
+            </li>
+            <!-- 4.생활용품 -->
+                <li><a href="#1">생활용품</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img4.jpg" alt="">
+                            <ul>
+                                <li><a href="#1">구강용품</a></li>
+                                <li><a href="#1">헤어용품</a></li>
+                                <li><a href="#1">바디용품</a></li>
+                                <li><a href="#1">위생용품</a></li>
+                            </ul>
+                        </li>                        
+                </ul>
+            </li>
+            <!-- 5커뮤니티 -->
+                <li><a href="#1">커뮤니티</a>
+                <ul class="submenu">
+                        <li>
+                            <img src="./img/menu_img5.jpg" alt="">
+                            <ul>
+                                <li><a href="#1">자유게시판</a></li>
+                                <li><a href="#1">추천식당</a></li>
+                            </ul>
+                        </li>                   
+                </ul>
+            </li>
+            </ul>
+
+
+            <!------- 왼쪽 메뉴---- -->
+            <ul class="menu_right">
+            <li><a href="../join/join.html">JOIN</a></li>
+            <li><a href="#" class="login">LOGIN</a></li>
+            <li><a href="#1"><i class="fa fa-shopping-cart"></i><span>1</span></a></li>
+            <li><a href="#1"><i class="fa fa-search"></i></a></li>
+        </ul>
+        </nav>
+    </header>
+
+
+     <!---------------- 배너 --------------------->
+    <section>
+        <div class="banner">
+            <article id="mainBanner">
+                <!-- 첫번째 배너 -->
+                <div class="banner_list banner1" style="z-index: 0;">
+                    <div class="main_banner"><img src="./img/banner1.jpg" alt=" banner1"></div>
+                    <div class="banner_con">
+                        <h2>VEGGIE CHIPS</h2>
+                        <p>동물성 기름을 빼고, 식물 원료만 사용한 VEGGIE CHIPS!</p>
+                        <p class="small">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            Lorem Ipsum has been the industry's standard dummy text, Lorem Ipsum has been the industry's standard dummy text,
+                        </p>
+                        <div > <a href="./sub.html" target="_blank"> 8,500원<span></span>구매하기</a> </div>
+                    </div>
+                </div>
+                <!-- 두번째 배너 -->
+                <div class="banner_list banner2" style="z-index: -1;">
+                    <div class="main_banner"><img src="./img/banner2.jpg" alt="banner2"></div>
+                    <div class="banner_con">
+                        <h2>ONEPACK SALAD</h2>
+                        <p>Breaking News floaber the dayiy  read all about it!</p>
+                        <p class="small">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            Lorem Ipsum has been the industry's standard dummy text, Lorem Ipsum has been the industry's standard dummy text,
+                        </p>
+                        <div > <a href="./sub.html" target="_blank"> 8,500원<span></span>구매하기</a> </div>
+                    </div>
+                </div>
+                <!-- 세번째 배너 -->
+                <div class="banner_list banner3" style="z-index: -2;">
+                    <div class="main_banner"><img src="./img/banner3.jpg" alt="banner3"></div>
+                    <div class="banner_con">
+                        <h2>ONEPACK SALAD</h2>
+                        <p>Breaking News floaber the dayiy  read all about it!</p>
+                        <p class="small">
+                            Lorem Ipsum is simply dummy text of the printing and
+                            Lorem Ipsum has been the industry's standard dummy text, Lorem Ipsum has been the industry's standard dummy text,
+                        </p>
+                        <div> <a href="#"> 8,500원<span></span>구매하기</a> </div>
+                    </div>
+                </div>
+            </article>
+            
+            <article class="banner_item_wrap">
+                <a href="#1" class="btn_left"><i class="fa fa-chevron-left"></i></a>
+                <a href="#1" class="btn_right"><i class="fa fa-chevron-right"></i></a>
+                <ul class="banner_items_list">                    
+                    <li class="banner_item">
+                        <img src="./img/item1.png" alt="item1">
+                        <div>
+                            <p> <span>VEGGIE CHIPS</span><br> 비건 야채 과자</p>
+                            <div><a href="./sub.html" target="_blank" class="btn btn1">자세히 보러가기</a></div>
+                        </div>                    
+                    </li>
+                    <li class="banner_item">
+                        <img src="./img/item2.png" alt="item1">
+                        <div>
+                            <p> <span>VEGGIE CHIPS</span><br> 비건 야채 과자</p>
+                            <div><a href="#1" class="btn btn2">자세히 보러가기</a></div>
+                        </div>
+                    </li>
+                    <li class="banner_item">
+                        <img src="./img/item3.png" alt="item1">
+                        <div>
+                            <p><span>VEGGIE CHIPS</span><br> 비건 야채 과자</p>
+                            <div><a href="#1" class="btn btn3">자세히 보러가기</a></div>
+                        </div>
+                    </li>
+                    <li class="banner_item">
+                        <img src="./img/item3.png" alt="item1">
+                        <div>
+                            <p> <span>VEGGIE CHIPS</span><br> 비건 야채 과자</p>
+                            <div><a href="#1" class="btn">자세히 보러가기</a></div>
+                        </div>
+                    </li>    
+                    <li class="banner_item">
+                        <img src="./img/item3.png" alt="item1">
+                        <div>
+                            <p> <span>VEGGIE CHIPS</span><br> 비건 야채 과자</p>
+                            <div><a href="#1" class="btn">자세히 보러가기</a></div>
+                        </div>
+                    </li>                    
+                </ul>
+            </article>  
+        </div>
+        <!-- 슬로건 -->
+            <div class="slg1">
+                <img src="./img/slogan.png" alt="">
+            </div>
+    </section>
+
+
+
+      <!---------------- 신상품 ------------------------->
+    <section class="new_items items">
+        <p><span class="title">채채플래닛 신상품</span></p>
+        <ul>
+            <!-- 1번 -->
+            <li>
+                <span class="btn_new">new</span>
+                <div>
+                    <a href="#1">
+                        <img src="./img/n-item1.jpg" alt="">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">VEGGIE CHIPS</span><br>
+                        <span class="item_title_sub">감자+야채스틱</span>
+                        </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+            <!-- 2번 -->
+            <li>
+                <span class="btn_new">new</span>
+                <div>
+                    <a href="#1">
+                        <img src="./img/n-item2.jpg" alt="">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">VEGGIE CHIPS</span><br>
+                        <span class="item_title_sub">야채 감자칩</span>
+                    </a>
+                </p>
+                <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+        <!-- 3번 -->
+            <li>
+                <span class="btn_new">new</span>
+                <span class="btn_hot">hot</span>
+                <div>
+                    <a href="#1">
+                        <img src="./img/n-item3.jpg" alt="">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">VEGGIE CHIPS</span><br>
+                        <span class="item_title_sub">두툼 야채감자칩</span>
+                    </a>
+                </p>
+                <p class="item_price_font"><a href="#">8500원</a></p>
+            </li>
+        <!-- 4번 -->
+            <li>
+                <span class="btn_new">new</span>
+                <div>
+                    <a href="#1">
+                        <img src="./img/n-item4.jpg" alt="">
+                    </a>
+                </div>
+                <img class="soldOut" src="./img/sold out.png" alt="">
+                <p>
+                    <a href="#1">
+                        <span class="item_title">VEGGIE CHIPS</span><br>
+                        <span class="item_title_sub">파프리카가루 야채칩</span>
+                    </a>
+                </p>
+                <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+        </ul>
+
+
+        <div><a href="#1" class="btn_more">더 많은 상품 보러가기</a></div>
+    </section>
+
+
+      <!---------------- 베스트 상품 ------------------------->
+    <section class="box_items best_items">
+    <p><span class="title">채채플래닛 베스트 상품</span></p>
+    <div class="box_items_wrap">
+        <aside>
+            <div data-aos="fade-down-right" data-aos-delay="50" data-aos-duration="1000">
+            <img src="./img/side1.png" alt="베스트 상품 사이드 이미지">
+        </div>
+            <img data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1000" src="./img/side2.png" alt="베스트 상품 사이드 이미지">
+        </aside>
+        <ul class="items">
+            <!-- 1-1 -->
+            <li>
+                <span class="btn_hot">hot</span>
+                <div>
+                    <a href="#1"><img src="./img/b-item1.jpg" alt="드라이수박">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">드라이 수박 과자</span><br>
+                        <span class="item_title_sub">오래 보관 가능!</span>
+                    </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+                <!-- 1-2 -->
+            <li>
+                <span class="btn_hot">hot</span>
+                <div>
+                    <a href="#1">
+                        <img src="./img/b-item2.jpg" alt="드라이 블루베리">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">드라이 블루베리</span><br>
+                        <span class="item_title_sub">상콤 달콤 바삭</span>
+                    </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+                <!-- 1-3 -->
+            <li>
+                <div>
+                    <a href="#1">
+                        <img src="./img/b-item3.jpg" alt="비건 오트 밀크">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">비건오트밀크</span><br>
+                        <span class="item_title_sub">동물성 zero!</span>
+                    </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+                <!-- 2-1 -->
+            <li>
+                <div>
+                    <a href="#1">
+                        <img src="./img/b-item4.jpg" alt="비건 콩고기">
+                    </a>
+                </div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">비건 콩고기</span><br>
+                        <span class="item_title_sub">청정 국내산 콩고기</span>
+                    </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+                <!-- 2-2 -->
+            <li>
+                <div><a href="#1"><img src="./img/b-item5.jpg" alt="비건샴푸"></a></div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">비건 샴푸</span><br>
+                        <span class="item_title_sub">망고향 첨가</span>
+                    </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+                </li>
+                <!-- 2-3 -->
+            <li>
+                <span class="btn_new">new</span>
+                <div><a href="#1"><img src="./img/b-item6.jpg" alt=""></a></div>
+                <p>
+                    <a href="#1">
+                        <span class="item_title">아몬드 우유</span><br>
+                        <span class="item_title_sub">1박스 20개입</span>
+                    </a>
+                </p>
+                    <p class="item_price_font"><a href="#1">8500원</a></p>
+            </li>
+        </ul>
+        
+    </div>
+    <div><a href="#1" class="btn_more">더 많은 상품 보러가기</a></div>
+    </section>
+     
+
+      <!---------------- 제로 웨이스트 상품 ------------------------->
+    <section class="box_items zero_items">
+        <p><span class="title">제로웨이스트 상품</span></p>
+        <div class="box_items_wrap">            
+            <ul class="items">
+                <!-- 1-1 -->
+                <li>
+                    <div>
+                        <a href="#1">
+                            <img src="./img/z-item1.jpg" alt="비건 칫솔">
+                        </a>
+                    </div>
+                    <p>
+                        <a href="#1">
+                            <span class="item_title">대나무 칫솔세트</span><br>
+                            <span class="item_title_sub">치솔 + 혀클리너</span>
+                        </a>
+                    </p>
+                        <p class="item_price_font"><a href="#1">15,000원</a></p>
+                    </li>
+                    <!-- 1-2 -->
+                    <li>
+                        <span class="btn_new">new</span>
+                        <div>
+                            <a href="#1">
+                                <img src="./img/z-item2.jpg" alt="천연수세미">
+                            </a>
+                        </div>
+                        <p>
+                            <a href="#1">
+                                <span class="item_title">천연수세미</span><br>
+                                <span class="item_title_sub">1박스 3개입</span>
+                            </a>
+                        </p>
+                            <p class="item_price_font"><a href="#1">9,500원</a></p>
+                    </li>
+                    <!-- 1-3 -->
+                    <li>
+                        <div>
+                            <a href="#1">
+                                <img src="./img/z-item3.jpg" alt="비건 비누">
+                            </a>
+                        </div>
+                        <p>
+                            <a href="#1">
+                                <span class="item_title">솔라이 샴푸바</span><br>
+                                <span class="item_title_sub">민트향 + 로즈마리세트</span>
+                            </a>
+                        </p>
+                            <p class="item_price_font"><a href="#1">30,000원</a></p>
+                    </li>
+                    <!-- 2-1 -->
+                    <li>
+                        <span class="btn_new">new</span>
+                        <div>
+                            <a href="#1">
+                                <img src="./img/z-item4.jpg" alt="텀블러">
+                            </a>
+                        </div>
+                        <p>
+                            <a href="#1">
+                                <span class="item_title">크라이어 텀블러</span><br>
+                                <span class="item_title_sub">총 6가지 색상입고</span>
+                            </a>
+                        </p>
+                            <p class="item_price_font"><a href="#1">23,000원</a></p>
+                    </li>
+                    <!-- 2-2 -->
+                    <li>
+                        <span class="btn_new">new</span>
+                        <div>
+                            <a href="#1">
+                                <img src="./img/./z-item5.jpg" alt="핸드크림">
+                            </a>
+                        </div>
+                        <p>
+                            <a href="#1">
+                                <span class="item_title">톤29 핸드크림</span><br>
+                                <span class="item_title_sub">자연분해 용기</span>
+                            </a>
+                        </p>
+                            <p class="item_price_font"><a href="#1">8500원</a></p>
+                    </li>
+                    <!-- 2-3 -->
+                    <li>
+                        <div>
+                            <a href="#1">
+                                <img src="./img/z-item6.jpg" alt="화장품">
+                            </a>
+                        </div>
+                        <img class="soldOut" src="./img/sold out.png" alt="품절">
+                        <p>
+                            <a href="#1">
+                                <span class="item_title">딜라이 아이크림</span><br>
+                                <span class="item_title_sub">국내 비건 화장품</span>
+                            </a>
+                        </p>
+                        <p class="item_price_font"><a href="#1">27,000원</a></p>
+                    </li>
+            </ul>
+            <aside data-aos="fade" data-aos-delay="50" data-aos-duration="1000">
+                <img src="./img/side3.png" alt="">
+            </aside>            
+        </div>
+        <div><a href="#1" class="btn_more">더 많은 상품 보러가기</a></div>
+    </section>
+      <!------------- 슬로건 - 구획 나누기 ------------>
+    <div class="slg2">
+        <div class="slg2_bg"></div>
+        <div>
+            <img src="./img/slogan.png" alt="구획 슬로건">
+        </div>
+    </div>
+        
+
+    <!---------------- 캠페인 리스트 ------------------------->
+    <section class="poster_list">
+        <p><span class="title">지구를 지키기 위한 작은 행동</span></p>
+        <div>          
+            <div class="poster_list_wrap">
+                <ul>
+                    <li>
+                        <a href="#1"><img src="./img/poster1.jpg" alt="캠페인포스터1"></a>
+                    </li>
+                    <li>
+                        <a href="#1"><img src="./img/poster2.jpg" alt="캠페인포스터2"></a>
+                    </li>
+                    <li>
+                        <a href="#1"><img src="./img/poster3.jpg" alt="캠페인포스터3"></a>
+                    </li>
+                    <li>
+                        <a href="#1"><img src="./img/poster4.jpg" alt="캠페인포스터4"></a>
+                    </li>
+                    <li>
+                        <a href="#1"><img src="./img/poster4.jpg" alt="캠페인포스터4"></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#1" class="btn_left"><i class="fa fa-chevron-left"></i></a>
+            <a href="#1" class="btn_right"><i class="fa fa-chevron-right"></i></a>
+        </div>
+    </section>
+        
+
+    <!---------------- 푸터 ------------------------->
+    <footer>
+        <div class="footer_wrap">
+            <section class="infomation">
+                <ul>
+                    <li class="footer_left">
+                        <img src="./img/logo-white.png" alt="logo-white">
+                        <div>
+                            <h3>채채플래닛<span>PLAY WITH EARTH, HAPPY EARTH</span></h3>
+                            <p>
+                                작은 생활 습관의 변화로 지구를 아름답게 변화하길 바랍니다.<br>
+                                저희 채채 플래닛에 대해 더 많이 알고 싶다면?
+                            </p>
+                            <div ><a href="#" class="btn_more">MORE HERE</a></div>
+                        </div>
+                    </li>
+                    <li class="footer_right">
+                        <ul>
+                            <li><span>About us</span>
+                                <ul>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                </ul>
+                            </li>                            
+                        </ul>
+                        <ul>
+                            <li><span>About us</span>
+                                <ul>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                    <li><a href="#1">website</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>        
+                </ul>              
+            </section>
+            <section class="sns">
+                <ul>
+                    <li>
+                        <a href="#1"><i class="fa fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#1"><i class="fa fa-ellipsis-h"></i></a>
+                    </li>
+                </ul>
+                <p>
+                    © 2022 All Rights Reserved
+                </p>
+            </section>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- 로그인 모달창 -->
+    <div id="login">
+        
+        <form>
+            <fieldset id="login-main">
+                <div id="logo"><img src="./img/logo.png" alt="로고"></div>
+                    <ul>
+                        <li>
+                            <input type="text" id="id" placeholder="아이디를 입력하세요." autofocus required>
+                        </li>
+                        <li>
+                            <input id="pw" type="password" placeholder="비밀번호를 입력하세요." required>
+                        </li> 
+                    </ul>
+                    <div id="checkbox">
+                        <p><input type="checkbox">아이디 기억하기</p>    
+                    </div>   
+            </fieldset>
+            <fieldset>
+                <input id="submit" type="submit" value="로그인" class="submit">
+            </fieldset>
+            <fieldset id="find">
+                <a href="#">회원가입</a>
+                <a href="#">아이디 찾기</a>
+                <a href="#">비밀번호 찾기</a>
+            </fieldset>
+         
+        <hr>
+        <div id="sub-login">
+            <div class="kakao">
+                <a href="#">
+                    <img src="./img/kakaologo.png" style="width: 40px;" alt="카카오 로고">
+                </a>
+            </div>
+            <div class="naver">
+                <a href="#">
+                    <img src="./img/naverlogo.jfif" style="width: 35px;" alt="네이버 로고">
+                </a>
+            </div>
+            <div class="google">
+                <a href="#">
+                    <img src="./img/google-g-logo.png" style="width: 35px;" alt="구글 로고">
+                </a>
+            </div>
+        </div>
+        </form>
+        <div class="bg"></div>
+    </div>
+    
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
