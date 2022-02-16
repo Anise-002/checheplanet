@@ -272,15 +272,26 @@ section{
     margin-right: 5px;
 }
 .btn_like{
+    color: #cdcdcd;
+}
+
+.btn_cart{
+    color: #cdcdcd;
+}
+.btn_like:hover{
     color: #FF7171;
 }
-.btn_cart{
+.btn_cart:hover{
     color: #06A882;
 }
+
 .btn_buy{
     width: 340px;
     background-color: #06A882;
     color: #fff;
+}
+.btn_buy:hover{
+    background-color: #C2D460;
 }
 
 
