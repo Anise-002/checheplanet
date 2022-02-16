@@ -149,6 +149,7 @@ section{
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 14px;
+    border: 1px solid #cdcdcd;
     
 }
 .sectionview_left div:first-child a img{
