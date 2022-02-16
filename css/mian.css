@@ -273,6 +273,7 @@ section .banner_con{
     position: absolute;
     margin-top: -100px;
     width: 100%;
+    z-index: 3;
 }
 .slg1 img{
     width: 750px;
