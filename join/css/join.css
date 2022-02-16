@@ -63,7 +63,7 @@ li input{
     width: 400px;
     padding: 15px 10px;
     border-radius: 5px;
-    margin-bottom: 3px; 
+    margin-bottom: 5px; 
     border: 1px solid #ccc;
     
 }
@@ -72,7 +72,8 @@ li input{
     background:#06A882;
     border: none;
     color: white;
-    box-shadow: #c4e272 3px 5px 0;
+    border-radius: 50px;
+    transition: 0.3s;
 }
  #smallbox input{
     width: 115px;
@@ -98,13 +99,11 @@ li input[type="date"]{
     color: red;
 }
 input[type="submit"]:hover, input[type="button"]:hover{
-    /* background: linear-gradient(#c4e272,#06A882); */
-    /* transform: translate(0,3px); */
     cursor: pointer;
+    background: #C2D460;
 }
 input[type="submit"]:active, input[type="button"]:active{
-    box-shadow:0 2px 0 #c4e272;
-    transform:translateY(3px);
+    
 }
 
 /*------------본문끝----------------------------------------------------------------- */
@@ -122,6 +121,7 @@ hr{
 #icon img{
     width: 30px;
     margin-left: 20px;
+    transition: 0.5s;
 }
 #icon {
     text-align: center;
@@ -130,7 +130,6 @@ hr{
 }
 #icon img:hover{
     transform: scale(1.3);
-    transition: 0.8ms;
     cursor: pointer;
 }
 /* ---제출버튼--- */
@@ -139,14 +138,13 @@ hr{
     background-color:#F78F28 ;
     padding: 15px 20px;
     text-align: center;
-    border-radius: 10px; 
     border: none;
     color: white;
-    margin: 20px auto;
+    margin: 20px auto 100px;
     display: block;
     clear: both;
     font-weight: bold;
-    box-shadow: #c4e272 1px 5px 0;
-    margin-bottom: 100px;
+    border-radius: 50px;
+    transition: 0.3s;
 }
 
