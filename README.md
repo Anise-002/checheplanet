@@ -1,7 +1,7 @@
 # 채채플래닛(CHECHE PLANET)
 날짜: January 17, 2022 → January 26, 2022
 
-# 채채플래닛
+## 기여도
 
 1. 디자인 100%, 코딩 100%
 2. 디자인 : FIGMA, PHOTOSHOP
