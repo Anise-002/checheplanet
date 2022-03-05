@@ -1,11 +1,5 @@
 # 채채플래닛(CHECHE PLANET)
-
-Property: 개인 프로젝트
-깃 허브 주소: https://github.com/nniikkee/checheplanet
 날짜: January 17, 2022 → January 26, 2022
-상태: 완료
-상태 - 서브: 서브-코딩
-상태 -메인: 메인- 코딩
 
 # 채채플래닛
 
