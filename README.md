@@ -24,9 +24,13 @@
 
 <br>
 
-<img src='./img/README/index.html.png' width="30%" float ='left' alt="회원가인 페이지">
-<img src='./img/README/join.png' width="30%" float ='left' alt="회원가인 페이지">
-<img src='./img/README/ddd.png' width="30%" float ='right' alt="로그인 모달창">
+<div>
+    <img src='./img/README/index.html.png' width="45%" float ='left' alt="메인페이지">
+    <img src='./img/README/sub.png' width="45%" float ='left' alt="서브페이지">
+    <img src='./img/README/join.png' width="45%" float ='left' alt="회원가인 페이지">
+    <img src='./img/README/ddd.png' width="45%" float ='right' alt="로그인 모달창">
+</div>
+
 
 <br>
 
