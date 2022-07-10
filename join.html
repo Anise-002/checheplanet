@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채채플래닛 회원가입하기</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-16x16.png" />
+    <link rel="stylesheet" href="css/join.css">
+</head>
+
+<body>
+    <header>
+        <div id="bg">
+            <div id="logo">
+                <a href="./index.html"><img src="./img/join//logo.png" alt="logo"></a>
+            </div>
+        </div>
+    </header>
+    <!---------------------------->
+
+    <form>
+        <h2>채채플래닛 회원가입</h2>
+        <fieldset>
+            <ul>
+                <li>
+                    <label for="id" class="red">아이디</label><input type="text" id="id" required>
+                    <input type="button" value="중 복 확 인" class="check">
+                </li>
+                <li>
+                    <label for="pw" class="red">비밀번호</label>
+                    <input type="password" id="pw" required placeholder="8자~14자 이상 비밀번호를 입력해주세요" minlength="8">
+
+                </li>
+                <li>
+                    <label for="rpw" class="red">비밀번호 재확인</label>
+                    <input type="password" id="rpw" required placeholder="비밀번호를 다시 입력해주세요" minlength="8">
+                </li>
+                <li>
+                    <label for="name" class="red">이름</label>
+                    <input type="text" id="name" required>
+                </li>
+                <li id="smallbox">
+                    <label for="tell" class="red">휴대전화</label>
+                    <select>
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="070">070</option>
+                    </select> -
+                    <input type="tell"> - <input type="tell">
+                </li>
+                <li>
+                    <label for="birth-day">생년월일</label>
+                    <input type="date" id="birth-day">
+                </li>
+                <li id="gender">
+                    <p>성별</p>
+                    <input type="radio" name="gender">여자
+                    <input type="radio" name="gender">남자
+                </li>
+                <li>
+                    <label for="adress" class="red">주소</label>
+                    <input type="text" required>
+                </li>
+            </ul>
+        </fieldset>
+        <hr>
+        <div id="icon">
+            <p>다른 방법으로 가입하기</p>
+            <img src="./img/join/naverlogo.jfif" alt="네이버 로그인">
+            <img src="./img/join/kakaologo.png" alt="카카오 로그인">
+            <img src="./img/join/google-g-logo.png" alt="구글 로그인">
+        </div>
+        <div class="sign">
+            <input type="submit" value="입주하기">
+        </div>
+        <div id="one"></div>
+    </form>
+
+</body>
+
+</html>

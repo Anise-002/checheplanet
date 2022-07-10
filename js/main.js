@@ -3,9 +3,6 @@ $(function(){
     $('.login').click(function(){
         $('#login').show();
     });
-    $('.submit').click(function(){
-        $('#login').hide();
-    });
     $('#login .bg').click(function(){
         $('#login').css({'display':'none'});
     })
