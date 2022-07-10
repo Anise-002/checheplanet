@@ -1,8 +1,9 @@
 # 채채플래닛(CHECHE PLANET)
 날짜: January 17, 2022 → January 26, 2022
 
-## 기여도
+## [✨DEMO](https://anise-002.github.io/checheplanet/)
 
+## 기여도
 1. 기획 100%, 디자인 100%, 코딩 100% 
 2. 디자인 : FIGMA, PHOTOSHOP
 3. 사용언어 : HTML, CSS, JQUERY, JAVASCRIPT
