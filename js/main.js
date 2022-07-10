@@ -3,7 +3,7 @@ $(function(){
     $('.login').click(function(){
         $('#login').show();
     });
-    $('#login .bg').click(function(){
+    $('#login.bg').click(function(){
         $('#login').css({'display':'none'});
     })
 
